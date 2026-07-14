@@ -5,4 +5,4 @@ marks = [80, 90, 75, 85]
 
 plt.bar(students, marks)
 plt.title("Bar Chart")
-plt.show()
+plt.show(

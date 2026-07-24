@@ -1,8 +1,4 @@
-"""
-Program 17: Generate contextual embeddings for a sentence using BERT.
-Downloads bert-base-uncased model from Hugging Face on first run.
-Run: python 17_bert_cls_embedding.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

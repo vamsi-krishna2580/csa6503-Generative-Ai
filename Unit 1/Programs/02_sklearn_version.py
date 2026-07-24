@@ -1,7 +1,4 @@
-"""
-Program 2: Install Scikit-learn and print its version.
-Run: python 02_sklearn_version.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

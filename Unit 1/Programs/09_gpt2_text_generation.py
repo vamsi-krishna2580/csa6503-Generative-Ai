@@ -1,8 +1,4 @@
-"""
-Program 9: Generate text using a pre-trained GPT-2 model.
-Downloads gpt2 model from Hugging Face on first run.
-Run: python 09_gpt2_text_generation.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

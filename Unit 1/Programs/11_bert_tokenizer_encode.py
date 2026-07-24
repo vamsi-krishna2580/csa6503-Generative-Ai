@@ -1,8 +1,4 @@
-"""
-Program 11: Load the BERT tokenizer and tokenize a sentence.
-Downloads bert-base-uncased tokenizer from Hugging Face on first run.
-Run: python 11_bert_tokenizer_encode.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

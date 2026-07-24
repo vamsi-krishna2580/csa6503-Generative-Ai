@@ -1,8 +1,4 @@
-"""
-Program 19: Generate text from a prompt using the GPT-2 language model.
-Downloads gpt2 model from Hugging Face on first run.
-Run: python 19_gpt2_generate_prompt.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

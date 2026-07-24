@@ -1,9 +1,4 @@
-"""
-Program 20: Generate and compare responses for multiple prompts using a
-pre-trained LLM.
-Downloads gpt2 model from Hugging Face on first run.
-Run: python 20_compare_multiple_prompts.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

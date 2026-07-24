@@ -1,8 +1,4 @@
-"""
-Program 16: Compare the tokenization outputs of BERT and GPT-2.
-Downloads bert-base-uncased and gpt2 tokenizers from Hugging Face on first run.
-Run: python 16_compare_bert_gpt2_tokenization.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

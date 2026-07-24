@@ -1,9 +1,4 @@
-"""
-Program 15: Tokenize a sentence using the BERT tokenizer and display the
-generated tokens and token IDs.
-Downloads bert-base-uncased tokenizer from Hugging Face on first run.
-Run: python 15_bert_tokens_display.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

@@ -1,8 +1,4 @@
-"""
-Program 7: Load a Pre-trained Transformer Model using Hugging Face and perform sentiment analysis.
-Downloads distilbert-base-uncased-finetuned-sst-2-english from Hugging Face on first run.
-Run: python 07_sentiment_analysis_pipeline.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

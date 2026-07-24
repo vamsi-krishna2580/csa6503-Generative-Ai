@@ -1,8 +1,4 @@
-"""
-Program 8: Tokenization using BERT Tokenizer.
-Downloads bert-base-uncased tokenizer files from Hugging Face on first run.
-Run: python 08_bert_tokenizer.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

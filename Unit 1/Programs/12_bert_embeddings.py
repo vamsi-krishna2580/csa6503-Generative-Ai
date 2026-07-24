@@ -1,8 +1,4 @@
-"""
-Program 12: Load a pre-trained BERT model and generate contextual embeddings.
-Downloads bert-base-uncased model from Hugging Face on first run.
-Run: python 12_bert_embeddings.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

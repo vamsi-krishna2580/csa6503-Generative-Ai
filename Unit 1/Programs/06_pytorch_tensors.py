@@ -1,7 +1,4 @@
-"""
-Program 6: Create tensors using PyTorch and perform basic mathematical operations.
-Run: python 06_pytorch_tensors.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

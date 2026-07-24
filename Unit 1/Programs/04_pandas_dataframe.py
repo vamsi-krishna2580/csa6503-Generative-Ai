@@ -1,7 +1,4 @@
-"""
-Program 4: Create a Pandas DataFrame with student names and grades.
-Run: python 04_pandas_dataframe.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

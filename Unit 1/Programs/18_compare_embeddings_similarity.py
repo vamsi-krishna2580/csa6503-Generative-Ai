@@ -1,9 +1,4 @@
-"""
-Program 18: Compare contextual embeddings generated for two semantically
-similar sentences.
-Downloads bert-base-uncased model from Hugging Face on first run.
-Run: python 18_compare_embeddings_similarity.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

@@ -1,7 +1,4 @@
-"""
-Program 5: Verify the installed versions of all AI libraries on your system.
-Run: python 05_verify_versions.py
-"""
+
 import subprocess, sys
 
 def ensure(pkg, import_name=None):

@@ -9,7 +9,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p1.png" width="900">
+<a href="Outputs/p1.png">
+    <img src="Outputs/p1.png" width="500">
+</a>
 
 ---
 
@@ -18,7 +20,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p2.png" width="900">
+<a href="Outputs/p2.png">
+    <img src="Outputs/p2.png" width="500">
+</a>
 
 ---
 
@@ -27,7 +31,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p3.png" width="900">
+<a href="Outputs/p3.png">
+    <img src="Outputs/p3.png" width="500">
+</a>
 
 ---
 
@@ -36,7 +42,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p4.png" width="900">
+<a href="Outputs/p4.png">
+    <img src="Outputs/p4.png" width="500">
+</a>
 
 ---
 
@@ -45,7 +53,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p5.png" width="900">
+<a href="Outputs/p5.png">
+    <img src="Outputs/p5.png" width="500">
+</a>
 
 ---
 
@@ -54,7 +64,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p6.png" width="900">
+<a href="Outputs/p6.png">
+    <img src="Outputs/p6.png" width="500">
+</a>
 
 ---
 
@@ -63,7 +75,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p7.png" width="900">
+<a href="Outputs/p7.png">
+    <img src="Outputs/p7.png" width="500">
+</a>
 
 ---
 
@@ -72,7 +86,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p8.png" width="900">
+<a href="Outputs/p8.png">
+    <img src="Outputs/p8.png" width="500">
+</a>
 
 ---
 
@@ -81,7 +97,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p9.png" width="900">
+<a href="Outputs/p9.png">
+    <img src="Outputs/p9.png" width="500">
+</a>
 
 ---
 
@@ -90,7 +108,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p10.png" width="900">
+<a href="Outputs/p10.png">
+    <img src="Outputs/p10.png" width="500">
+</a>
 
 ---
 
@@ -99,7 +119,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p11.png" width="900">
+<a href="Outputs/p11.png">
+    <img src="Outputs/p11.png" width="500">
+</a>
 
 ---
 
@@ -108,7 +130,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p12.png" width="900">
+<a href="Outputs/p12.png">
+    <img src="Outputs/p12.png" width="500">
+</a>
 
 ---
 
@@ -117,7 +141,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p13.png" width="900">
+<a href="Outputs/p13.png">
+    <img src="Outputs/p13.png" width="500">
+</a>
 
 ---
 
@@ -126,7 +152,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p14.png" width="900">
+<a href="Outputs/p14.png">
+    <img src="Outputs/p14.png" width="500">
+</a>
 
 ---
 
@@ -135,7 +163,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p15.png" width="900">
+<a href="Outputs/p15.png">
+    <img src="Outputs/p15.png" width="500">
+</a>
 
 ---
 
@@ -144,7 +174,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p16.png" width="900">
+<a href="Outputs/p16.png">
+    <img src="Outputs/p16.png" width="500">
+</a>
 
 ---
 
@@ -153,7 +185,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p17.png" width="900">
+<a href="Outputs/p17.png">
+    <img src="Outputs/p17.png" width="500">
+</a>
 
 ---
 
@@ -162,7 +196,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p18.png" width="900">
+<a href="Outputs/p18.png">
+    <img src="Outputs/p18.png" width="500">
+</a>
 
 ---
 
@@ -171,7 +207,9 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p19.png" width="900">
+<a href="Outputs/p19.png">
+    <img src="Outputs/p19.png" width="500">
+</a>
 
 ---
 
@@ -180,4 +218,6 @@ This folder contains the Python programs and their corresponding outputs for **U
 
 ### Output
 
-<img src="Outputs/p20.png" width="900">
+<a href="Outputs/p20.png">
+    <img src="Outputs/p20.png" width="500">
+</a>

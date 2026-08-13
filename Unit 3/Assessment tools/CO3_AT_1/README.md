@@ -30,3 +30,8 @@ CO3_AT_1/
 ├── .gitignore
 ├── Output.png
 └── README.md
+
+
+## Output
+
+![Program Output](Output.png)

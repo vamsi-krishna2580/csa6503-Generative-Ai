@@ -1,0 +1,15 @@
+(env) PS D:\Documents\csa6503-Generative-Ai\Unit 2\Programs> python .\Experiment10_SQL_Query_Generation.py      
+Enter the query requirement: Find students who scored above 80 in DBMS.
+
+Generated SQL:
+
+```sql
+SELECT S.Name
+FROM Student AS S
+JOIN Marks AS M
+  ON S.StudentID = M.StudentID
+JOIN Course AS C
+  ON M.CourseID = C.CourseID
+WHERE
+  C.CourseName = 'DBMS' AND M.Marks > 80;
+```

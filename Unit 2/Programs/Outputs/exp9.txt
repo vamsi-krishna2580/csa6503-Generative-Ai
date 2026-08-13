@@ -1,0 +1,165 @@
+env) PS D:\Documents\csa6503-Generative-Ai\Unit 2\Programs> python .\Experiment09_Python_Code_Generation.py
+Enter the computational problem: Find factorial using recursion
+Generating Python code...
+
+To find the factorial of a non-negative integer using recursion, we leverage the mathematical definition that `n! = n * (n-1)!` with a base case of `0! = 1`.
+
+```python
+import sys
+
+def factorial(n: int) -> int:
+    """
+    Calculates the factorial of a non-negative integer using recursion.
+
+    The factorial of a non-negative integer n, denoted by n!, is the product of
+    all positive integers less than or equal to n.
+
+    Mathematical Definition:
+    n! = n * (n-1) * (n-2) * ... * 1
+    0! = 1 (by definition)
+
+    Args:
+        n: A non-negative integer for which to calculate the factorial.
+
+    Returns:
+        The factorial of n.
+
+    Raises:
+        TypeError: If the input n is not an integer.
+        ValueError: If the input n is a negative integer (factorial is undefined for negatives).
+    """
+    # Requirement 1: Clean Python code.
+    # Requirement 2: Meaningful comments.
+
+    # --- Input Validation and Error Handling ---
+    if not isinstance(n, int):
+        # Raising a TypeError for non-integer input.
+        # This prevents unexpected behavior or errors deeper in recursion.
+        raise TypeError(f"Input must be an integer, but got {type(n).__name__}.")
+    if n < 0:
+        # Raising a ValueError for negative numbers as factorials are not defined
+        # for them in the standard sense.
+        raise ValueError("Factorial is not defined for negative numbers.")
+
+    # --- Base Case ---
+    # This is the crucial termination condition for the recursion.
+    # Without a base case, the function would call itself indefinitely,
+    # leading to a "RecursionError: maximum recursion depth exceeded".
+    if n == 0 or n == 1:
+        return 1
+    # --- Recursive Step ---
+    else:
+        # The function calls itself with a smaller input (n-1).
+        # This breaks down the problem into smaller, similar subproblems.
+        # For example, factorial(5) becomes 5 * factorial(4),
+        # which then becomes 5 * (4 * factorial(3)), and so on,
+        # until the base case factorial(0) or factorial(1) is reached.
+        return n * factorial(n - 1)
+
+def main():
+    """
+    Main function to demonstrate the factorial calculation with sample inputs.
+    """
+    print("--- Factorial Calculator using Recursion ---\n")
+
+    # Sample input values to test the factorial function.
+    test_cases = [
+        0,   # Base case
+        1,   # Base case
+        5,   # Typical positive integer
+        10,  # Larger positive integer
+        -3,  # Invalid: negative number
+        3.5, # Invalid: non-integer
+        "abc" # Invalid: string
+    ]
+
+    for num in test_cases:
+        try:
+            result = factorial(num)
+            print(f"The factorial of {num} is: {result}")
+        except (ValueError, TypeError) as e:
+            # Catches and prints specific error messages for invalid inputs.
+            print(f"Error calculating factorial for {repr(num)}: {e}")
+        print("-" * 30) # Separator for readability
+
+if __name__ == "__main__":
+    # Standard practice to ensure main() runs only when the script is executed directly.
+    # For very large 'n', the default recursion limit might be exceeded.
+    # sys.setrecursionlimit(2000) # Uncomment and adjust if you need to test much larger 'n'
+    main()
+
+# --- Algorithm Explanation (Requirement 3) ---
+
+# Problem: Find the factorial of a non-negative integer 'n' using recursion.
+
+# The factorial function `n!` is defined as the product of all positive integers less than or equal to `n`.
+# Mathematically: n! = n * (n-1) * (n-2) * ... * 1.
+
+# Recursive Definition:
+# A recursive solution typically involves two main parts:
+
+# 1.  **Base Case(s):**
+#     *   This is the condition under which the recursion stops and returns a direct value without
+#         making any further recursive calls. It's essential to prevent infinite recursion.
+#     *   For factorial, the base cases are:
+#         *   `factorial(0) = 1`
+#         *   `factorial(1) = 1`
+#     *   When `n` is 0 or 1, the function immediately returns 1.
+
+# 2.  **Recursive Step:**
+#     *   This is where the function calls itself with a modified (usually smaller) input,
+#         moving towards the base case.
+#     *   For factorial, the recursive step is:
+#         *   `factorial(n) = n * factorial(n - 1)` for `n > 1`
+#     *   This means that to find the factorial of `n`, we multiply `n` by the factorial of `n-1`.
+#         The `factorial(n-1)` call will then further break down until it hits a base case.
+
+# How it works (Example: factorial(4)):
+# 1.  `factorial(4)` is called. Since `4 > 1`, it executes `4 * factorial(3)`.
+# 2.  `factorial(3)` is called. Since `3 > 1`, it executes `3 * factorial(2)`.
+# 3.  `factorial(2)` is called. Since `2 > 1`, it executes `2 * factorial(1)`.
+# 4.  `factorial(1)` is called. This is a base case, so it returns `1`.
+# 5.  The result `1` is returned to `factorial(2)`, which computes `2 * 1 = 2`.
+# 6.  The result `2` is returned to `factorial(3)`, which computes `3 * 2 = 6`.
+# 7.  The result `6` is returned to `factorial(4)`, which computes `4 * 6 = 24`.
+# 8.  Finally, `24` is returned as the result of `factorial(4)`.
+
+# --- Time Complexity (Requirement 4) ---
+
+# The time complexity of the recursive factorial function is **O(n)**.
+
+# Explanation:
+# - Each recursive call performs a constant amount of work: a comparison, a subtraction, and a multiplication.
+# - The function makes `n` recursive calls to reach the base case from `n`. For example, to compute `factorial(n)`,
+#   it calls `factorial(n-1)`, then `factorial(n-2)`, and so on, down to `factorial(0)`. This constitutes
+#   `n + 1` function calls in total.
+# - Since the amount of work per call is constant, and there are `n` calls (proportional to the input `n`),
+#   the total time taken grows linearly with the input `n`.
+
+# Space Complexity:
+# The space complexity is also **O(n)**.
+# - This is due to the call stack. Each recursive call adds a new frame to the call stack to store its
+#   local variables and return address.
+# - For an input `n`, there will be `n` frames on the call stack before the base case is reached and
+#   the stack starts unwinding. This consumption of memory is proportional to `n`.
+
+# --- Sample Input and Output (Requirement 5) ---
+# See the output from running the `main()` function above.
+
+# Example Output for `main()` function:
+# --- Factorial Calculator using Recursion ---
+#
+# The factorial of 0 is: 1
+# ------------------------------
+# The factorial of 1 is: 1
+# ------------------------------
+# The factorial of 5 is: 120
+# ------------------------------
+# The factorial of 10 is: 3628800
+# ------------------------------
+# Error calculating factorial for -3: Factorial is not defined for negative numbers.
+# ------------------------------
+# Error calculating factorial for 3.5: Input must be an integer, but got float.
+# ------------------------------
+# Error calculating factorial for 'abc': Input must be an integer, but got str.
+# ------------------------------

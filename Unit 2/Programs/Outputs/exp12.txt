@@ -1,0 +1,220 @@
+(env) PS D:\Documents\csa6503-Generative-Ai\Unit 2\Programs> python .\Experiment12_Prompt_Evaluation.py
+Enter a text generation task: Explian Ai 
+======================================================================
+PROMPT 1
+======================================================================
+**Artificial Intelligence (AI)** is a broad field of computer science dedicated to creating machines that can perform tasks that typically require human intelligence. In simpler terms, it's about making computers "smart" enough to think, learn, solve problems, and make decisions, often in ways that mimic human cognitive abilities.
+
+Here's a breakdown of what AI entails:
+
+---
+
+### The Core Idea: Simulating Human Intelligence
+
+AI aims to imbue machines with abilities like:
+*   **Perception:** Understanding images, sounds, and other sensory input (e.g., computer vision, speech recognition).
+*   **Reasoning:** Solving problems, making decisions, and drawing conclusions based on logic and data.
+*   **Learning:** Improving performance over time by processing data and recognizing patterns (this is where Machine Learning comes in).
+*   **Natural Language Understanding:** Comprehending and generating human language (e.g., chatbots, translation).
+*   **Manipulation/Action:** Controlling physical robots to perform tasks (e.g., robotic arms in manufacturing).
+*   **Creativity:** Generating new content like art, music, or text.
+
+---
+
+### Key Pillars and Concepts of AI
+
+1.  **Machine Learning (ML):** This is the most common and powerful approach to AI today. Instead of being explicitly programmed for every possible scenario, ML systemslearn from data.
+    *   **How it works:** You feed a vast amount of data (e.g., images of cats and dogs) to an algorithm, and it identifies patterns and rules on its own to make predictions or decisions.
+    *   **Types:**
+        *   **Supervised Learning:** Learns from labeled data (e.g., "this is a cat," "this is a dog").
+        *   **Unsupervised Learning:** Finds patterns in unlabeled data (e.g., grouping similar customers together).
+        *   **Reinforcement Learning:** Learns by trial and error, getting rewards for good actions and penalties for bad ones (e.g., teaching a computer to play a game).
+
+2.  **Deep Learning (DL):** A subfield of Machine Learning that uses artificial neural networks with many layers ("deep" networks).
+    *   **How it works:** Inspired by the human brain, these networks are exceptionally good at processing complex, unstructured data like images, sound, and text, often uncovering very intricate patterns.
+    *   **Applications:** Facial recognition, natural language translation, self-driving cars.
+
+3.  **Natural Language Processing (NLP):** Focuses on the interaction between computers and human (natural) language.
+    *   **Examples:** Language translation (Google Translate), spam detection, sentiment analysis, chatbots, voice assistants (Siri, Alexa).
+
+4.  **Computer Vision (CV):** Enables computers to "see" and interpret visual information from the world.
+    *   **Examples:** Object recognition, facial recognition, medical image analysis, self-driving car navigation.
+
+5.  **Robotics:** While robotics deals with the physical construction and operation of robots, AI is often the "brain" that allows robots to perceive their environment,make decisions, and interact intelligently.
+
+---
+
+### Types of AI (Levels of "Intelligence")
+
+AI is often categorized by its capabilities:
+
+1.  **Narrow AI (ANI) / Weak AI:**
+    *   **What it is:** The only type of AI we have today. It's designed and trained for *one specific task* and excels at it.
+    *   **Examples:** Playing chess, recommending movies, recognizing faces, voice assistants.
+    *   **Key Characteristic:** It doesn't possess general intelligence, consciousness, or self-awareness. It can only perform within its defined scope.
+
+2.  **General AI (AGI) / Strong AI:**
+    *   **What it is:** Hypothetical AI that would possess the ability to understand, learn, and apply intelligence across *any* intellectual task that a human being can. It could learn new skills, reason, and adapt to novel situations.
+    *   **Status:** Does not currently exist and is a major research goal for the future.
+
+3.  **Superintelligence (ASI):**
+    *   **What it is:** Hypothetical AI that would surpass human intelligence in *every single aspect*, including creativity, general knowledge, and problem-solving.
+    *   **Status:** Purely theoretical and speculative, often discussed in the context of long-term AI ethics and potential societal impact.
+
+---
+
+### Common Applications of AI Today
+
+AI is already deeply integrated into our daily lives:
+
+*   **Voice Assistants:** Siri, Alexa, Google Assistant.
+*   **Recommendation Systems:** Netflix, Amazon, Spotify suggesting products or content.
+*   **Self-Driving Cars:** Using computer vision and machine learning to navigate.
+*   **Medical Diagnosis:** AI helping doctors identify diseases from scans or predict patient outcomes.
+*   **Fraud Detection:** Identifying unusual patterns in financial transactions.
+*   **Customer Service:** Chatbots and virtual agents handling inquiries.
+*   **Generative AI:** Creating realistic images, text, code, or music (e.g., ChatGPT, DALL-E).
+*   **Smart Homes:** Devices adjusting settings based on learned preferences.
+
+---
+
+### Benefits and Challenges
+
+**Benefits:**
+*   **Automation & Efficiency:** Automating repetitive tasks, freeing up humans for more complex work.
+*   **Problem Solving:** Analyzing vast amounts of data to find solutions or insights beyond human capacity.
+*   **New Discoveries:** Accelerating research in science, medicine, and engineering.
+*   **Personalization:** Tailoring experiences to individual users.
+
+**Challenges & Ethical Concerns:**
+*   **Bias:** AI systems can perpetuate and amplify biases present in the data they are trained on.
+*   **Job Displacement:** Automation may lead to job losses in certain sectors.
+*   **Privacy:** AI often relies on collecting and analyzing large amounts of personal data.
+*   **Security:** AI systems can be vulnerable to attacks or misuse.
+*   **Accountability:** Determining who is responsible when an AI system makes a mistake.
+*   **Misinformation:** Generative AI can be used to create realistic fake content.
+
+---
+
+### Conclusion
+
+AI is a transformative technology that is rapidly evolving. While currently limited to "narrow" tasks, it's profoundly changing industries, enhancing human capabilities, and posing important questions about our future. It's a powerful tool with immense potential for good, but its development and application require careful consideration of ethical implications and societal impact.
+
+======================================================================
+PROMPT 2
+======================================================================
+Imagine you're trying to teach a very, very smart robot to do things that usually require a human brain. That's essentially what **Artificial Intelligence (AI)** is allabout.
+
+In simple language:
+
+**AI is when computers are programmed to think, learn, and solve problems in ways that mimic human intelligence.**
+
+It's about making machines "smart" enough to do tasks that we previously thought only people could do. This includes things like understanding language, recognizing faces, making decisions, or even creating art. AI doesn't have feelings or consciousness like humans; it's just very, very good at recognizing patterns, following complex rules, and learning from data to perform its tasks.
+
+---
+
+**Example:**
+
+Think about your **smartphone's voice assistant** (like Siri, Google Assistant, or Alexa).
+
+When you say, "Hey Siri, what's the weather like today?" a lot of AI is happening behind the scenes:
+
+1.  **Understanding your voice:** The AI listens to your spoken words and converts them into text.
+2.  **Understanding your meaning:** The AI figures out that you're asking about the weather and not, say, trying to play a song called "What's the weather."
+3.  **Finding information:** The AI searches weather databases for your current location.
+4.  **Responding:** The AI then formulates a response in a human-like voice, telling you the weather.
+
+This whole process – from hearing to understanding to searching to speaking – relies on AI to make your phone seem intelligent and helpful.
+
+======================================================================
+PROMPT 3
+======================================================================
+As an expert educator, let's explore Artificial Intelligence (AI) in a comprehensive yet clear manner.
+
+---
+
+## Explaining Artificial Intelligence: A Comprehensive Guide
+
+Artificial Intelligence (AI) is one of the most transformative technologies of our time, rapidly reshaping industries, economies, and daily life. Understanding AI is crucial for navigating our increasingly technology-driven world.
+
+### 1. What is Artificial Intelligence? (A Clear Definition)
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. It is a broad field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, problem-solving, decision-making, pattern recognition, understanding language, and even creativity.
+
+In essence, AI aims to empower machines with cognitive abilities, allowing them to perceive, reason, act, and adapt in complex environments.
+
+### 2. Explaining the Concept of AI
+
+The core concept of AI revolves around enabling machines to process information, identify patterns, make decisions, and improve their performance over time without explicit, step-by-step human programming for every possible scenario. This is achieved through various techniques and methodologies, primarily **Machine Learning (ML)** and **Deep Learning (DL)**.
+
+*   **Learning:** AI systems learn from data. Instead of being explicitly told how to solve every problem, they are fed vast amounts of data and algorithms that allow them to identify correlations, predict outcomes, and develop strategies. For example, an AI learning to recognize cats isn't given a precise definition of a cat; instead,it's shown millions of images, some with cats and some without, and it learns to distinguish them through pattern recognition.
+*   **Reasoning:** AI systems can apply logical rules to reach conclusions. This can involve symbolic reasoning (e.g., if A is true and A implies B, then B is true) or probabilistic reasoning (e.g., predicting the likelihood of an event based on observed data).
+*   **Problem-Solving:** AI can devise strategies to achieve specific goals, often by exploring various options and evaluating their potential outcomes. This is evidentin pathfinding algorithms for navigation or game-playing AI.
+*   **Perception:** Through sensors (cameras, microphones, LIDAR), AI systems can interpret sensory data from the real world, allowing them to "see" and "hear."
+*   **Natural Language Processing (NLP):** A significant branch of AI, NLP enables machines to understand, interpret, and generate human language, facilitating communication between humans and machines.
+
+Most of the AI we interact with today falls under **Narrow AI (ANI)** or **Weak AI**. This type of AI is designed and trained for a specific task (e.g., playing chess, facial recognition, language translation). It can perform its designated task exceptionally well, often surpassing human capabilities, but lacks general intelligence or consciousness. The future aspirations of AI research include **General AI (AGI)**, which would possess human-like intelligence across a broad range of tasks, and **SuperAI (ASI)**, which would surpass human intelligence in every aspect.
+
+### 3. Real-World Examples of AI
+
+AI is already deeply integrated into our daily lives, often in ways we don't even consciously recognize:
+
+*   **Virtual Assistants:** Siri, Alexa, Google Assistant use AI (specifically NLP and speech recognition) to understand voice commands, answer questions, and perform tasks.
+*   **Recommendation Systems:** Platforms like Netflix, Amazon, Spotify, and YouTube use AI to analyze your preferences and past behavior to suggest movies, products, music, or videos you might like.
+*   **Self-Driving Cars:** Autonomous vehicles utilize AI to perceive their surroundings (via cameras, radar, lidar), make real-time decisions, navigate, and react to changing road conditions.
+*   **Facial Recognition:** Used in smartphone unlocking, security systems, and social media tagging, AI algorithms identify and verify individuals based on their unique facial features.
+*   **Medical Diagnosis:** AI assists doctors in analyzing medical images (X-rays, MRIs) to detect anomalies, predict disease progression, and suggest personalized treatment plans.
+*   **Fraud Detection:** Financial institutions employ AI to monitor transactions for unusual patterns, quickly identifying and flagging potentially fraudulent activities.
+*   **Generative AI:** Tools like ChatGPT (for text generation), DALL-E, and Midjourney (for image generation) demonstrate AI's ability to create novel content that mimics human creativity.
+*   **Spam Filters:** Your email provider uses AI to identify and filter out unwanted spam messages before they reach your inbox.
+
+### 4. Advantages of Artificial Intelligence
+
+The widespread adoption of AI is driven by a multitude of significant benefits:
+
+*   **Increased Efficiency and Automation:** AI can automate repetitive, mundane, and time-consuming tasks, freeing up human workers to focus on more complex and creative endeavors.
+*   **Enhanced Accuracy and Reduced Error:** AI systems, particularly in data analysis and prediction, can process vast amounts of information with greater precision and fewer errors than humans.
+*   **Data Analysis and Insights:** AI can uncover hidden patterns, correlations, and insights from massive datasets that would be impossible for humans to process, leading to better decision-making.
+*   **Innovation and New Discoveries:** AI accelerates scientific research, drug discovery, and materials science by simulating experiments and predicting outcomes.
+*   **Personalization:** From tailored shopping experiences to customized educational content, AI can adapt services and products to individual needs and preferences.
+*   **Improved Quality of Life:** AI contributes to advancements in healthcare (diagnostics, personalized medicine), accessibility (assistive technologies for disabilities), and safety (predictive maintenance, disaster prediction).
+*   **Availability 24/7:** AI systems can operate continuously without breaks, fatigue, or needing to sleep, ensuring constant service delivery.
+
+### 5. Disadvantages and Challenges of Artificial Intelligence
+
+Despite its immense potential, AI also presents several significant challenges and disadvantages that require careful consideration:
+
+*   **Job Displacement:** As AI automates more tasks, there is a legitimate concern about widespread job losses in various sectors, necessitating workforce retraining and adaptation.
+*   **Ethical Concerns:**
+    *   **Bias:** AI systems trained on biased data can perpetuate and even amplify societal biases (e.g., in hiring, lending, or criminal justice).
+    *   **Privacy:** AI requires vast amounts of data, raising concerns about data privacy, surveillance, and how personal information is collected, used, and secured.
+    *   **Accountability:** Determining who is responsible when an AI system makes a mistake (e.g., in autonomous vehicles or medical diagnosis) can be complex.
+*   **High Costs and Complexity:** Developing, deploying, and maintaining sophisticated AI systems can be incredibly expensive and require specialized expertise.
+*   **Lack of Human Intuition and Empathy:** Current AI lacks genuine understanding, consciousness, and the ability to experience emotions or exercise common sense and moral judgment in complex, ambiguous human situations.
+*   **Security Risks:** AI systems can be vulnerable to cyberattacks, manipulation, or adversarial attacks that trick them into making incorrect decisions.
+*   **Potential for Misuse:** AI technology could be misused for surveillance, autonomous weapons, or spreading misinformation, posing societal and security risks.
+*   **Dependence and Loss of Skills:** Over-reliance on AI might lead to a degradation of human skills in critical thinking, problem-solving, and decision-making.
+
+### 6. Conclusion
+
+Artificial Intelligence is not merely a tool; it is a fundamental shift in how we approach problems, make decisions, and interact with technology. From automating complex tasks to uncovering profound insights from data, AI holds the promise of significant progress across nearly every domain of human endeavor.
+
+However, its development and deployment demand careful ethical consideration, robust regulatory frameworks, and a commitment to addressing its societal impacts. As expert educators, our role is to foster critical thinking about AI, preparing individuals not just to use these powerful tools, but also to shape their future responsibly, ensuring that AI serves humanity's best interests and augments, rather than diminishes, human potential. The future of AI is not just about what machines can do, but about what we, as humans, choose to make them do.
+
+======================================================================
+Evaluation
+======================================================================
+
+Evaluation Criteria
+
+✔ Relevance
+✔ Accuracy
+✔ Completeness
+✔ Clarity
+✔ Format Adherence
+
+Conclusion
+
+Prompt 3 performs the best because it provides
+structured instructions, resulting in a more complete,
+well-organized, and accurate response.

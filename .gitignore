@@ -1,1 +1,4 @@
 env/
+GenAi_Practice
+__pycache__
+.env

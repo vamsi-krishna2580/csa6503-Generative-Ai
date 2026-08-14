@@ -2,3 +2,17 @@ env/
 GenAi_Practice
 __pycache__
 .env
+
+.venv/
+.env
+__pycache__/
+*.pyc
+
+Ollama-Gui
+
+data/raw/
+data/processed/
+vectorstore/
+
+.streamlit/
+requirementsenv.txt

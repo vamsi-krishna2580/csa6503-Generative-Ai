@@ -1,0 +1,7 @@
+Metric,FAISS,ChromaDB
+Number of records,250,250
+Embedding dimension,384,384
+Indexing time (seconds),0.00036249999902793206,0.27642240000204765
+Average query latency (seconds),0.0004434499998751562,0.004105200000776676
+Average relevant results in Top-5,1.5,1.5
+Storage footprint,375.04 KB,1.78 MB

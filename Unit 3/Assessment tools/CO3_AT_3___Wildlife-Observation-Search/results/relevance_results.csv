@@ -1,0 +1,11 @@
+query,expected_species,FAISS_relevant_top5,ChromaDB_relevant_top5
+A large striped predator seen near a forest at dusk,Bengal Tiger,1,1
+A herd of large grey animals crossing a village road,Asian Elephant,3,3
+A colorful bird with a long tail near farmland,Indian Peafowl,2,2
+A wild cat moving through dense vegetation,Indian Leopard,2,2
+A nocturnal animal searching for food near a village,Sloth Bear,0,0
+A large herbivore drinking near a water source,Asian Elephant,2,2
+A small wild animal spotted in agricultural fields,Indian Hare,0,0
+A snake observed near rocks and vegetation,Indian Cobra,2,2
+A group of monkeys near trees,Rhesus Macaque,3,3
+Panthera tigris tigris observed near woodland,Bengal Tiger,0,0

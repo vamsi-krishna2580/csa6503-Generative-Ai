@@ -8,7 +8,7 @@ __pycache__
 __pycache__/
 *.pyc
 
-Ollama-Gui
+Ollama-Gui/
 
 data/raw/
 data/processed/
@@ -16,3 +16,6 @@ vectorstore/
 
 .streamlit/
 requirementsenv.txt
+
+ai-startup-workspace-phase1-11/
+dev-scratch-tests/

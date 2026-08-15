@@ -19,3 +19,6 @@ requirementsenv.txt
 
 ai-startup-workspace-phase1-11/
 dev-scratch-tests/
+
+chroma_db/
+*_faiss.index

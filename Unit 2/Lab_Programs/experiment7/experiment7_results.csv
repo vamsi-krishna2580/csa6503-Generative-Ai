@@ -1,0 +1,167 @@
+task,output,prompt_tokens,completion_tokens,latency_ms
+Executive Abstract,"{
+  ""executive_abstract"": ""August production missed targets by 140 units due to equipment downtime and material shortages from a primary supplier. The defect rate exceeded targets, and a key client delivery is delayed by nine days. Recovery actions include an emergency material order, an extra Saturday shift, and daily equipment calibration checks. Management is actively monitoring these recovery steps to protect customer commitments and reduce the order backlog by late September.""
+}",1054,89,1810.84
+Action-Item List,"[
+  {
+    ""Owner"": ""Meera Iyer"",
+    ""Task"": ""Complete the MX-400 vibration test"",
+    ""Deadline"": ""15 September 2026""
+  },
+  {
+    ""Owner"": ""Meera Iyer"",
+    ""Task"": ""Submit the maintenance report"",
+    ""Deadline"": ""16 September 2026""
+  },
+  {
+    ""Owner"": ""Priya Shah"",
+    ""Task"": ""Confirm staffing for the additional 19 September shift"",
+    ""Deadline"": ""13 September 2026""
+  },
+  {
+    ""Owner"": ""Arjun Patel"",
+    ""Task"": ""Monitor defect trends and report the surface-crack investigation findings"",
+    ""Deadline"": ""18 September 2026""
+  },
+  {
+    ""Owner"": ""Suresh Kumar"",
+    ""Task"": ""Verify QC-Vision-7 calibration each morning"",
+    ""Deadline"": ""30 September 2026""
+  },
+  {
+    ""Owner"": ""Karthik Rao"",
+    ""Task"": ""Track the emergency shipment from Delta Components and confirm arrival of the 500 cast housings"",
+    ""Deadline"": ""14 September 2026""
+  },
+  {
+    ""Owner"": ""Karthik Rao"",
+    ""Task"": ""Immediately inform Priya Shah and Nisha Verma if the shipment is late"",
+    ""Deadline"": ""14 September 2026""
+  },
+  {
+    ""Owner"": ""Nisha Verma"",
+    ""Task"": ""Update the production and backlog forecast after the housing delivery is received and after staffing for the additional shift is confirmed"",
+    ""Deadline"": ""Not specified""
+  }
+]",1056,397,2240.86
+Technical Summary,"{
+  ""meeting_date"": ""10 September 2026"",
+  ""chair"": ""Ravi Menon (Operations Director)"",
+  ""participants"": [
+    ""Priya Shah (Production Manager)"",
+    ""Arjun Patel (Quality Manager)"",
+    ""Meera Iyer (Maintenance Engineer)"",
+    ""Karthik Rao (Supply Chain Manager)"",
+    ""Nisha Verma (Planning Coordinator)""
+  ],
+  ""production_metrics"": {
+    ""august_actual_units"": 4860,
+    ""august_target_units"": 5000,
+    ""shortfall_units"": 140,
+    ""output_increase_percentage"": 3,
+    ""line_1_units"": 2740,
+    ""line_2_units"": 1120,
+    ""line_2_planned_units"": 1350,
+    ""line_2_gap_units"": 230,
+    ""line_3_units"": 1000
+  },
+  ""maintenance_reports"": [
+    {
+      ""machine"": ""MX-400"",
+      ""issue"": ""Unexpected bearing failure"",
+      ""date"": ""4 September 2026"",
+      ""downtime_hours"": 11,
+      ""actions_taken"": ""Replaced damaged bearing and completed an alignment inspection"",
+      ""follow_up_vibration_test"": ""15 September 2026"",
+      ""maintenance_report_deadline"": ""16 September 2026""
+    }
+  ],
+  ""quality_report"": {
+    ""total_rejected_units"": 78,
+    ""defect_breakdown"": {
+      ""surface_cracks"": 31,
+      ""dimensional_variation"": 22,
+      ""electrical_test_failures"": 25
+    },
+    ""overall_defect_rate_percentage"": 1.60,
+    ""internal_target_defect_rate_percentage"": 1.20,
+    ""defect_cause"": ""Surface cracking increased after a change in casting supplier during August"",
+    ""machine_issues"": [
+      {
+        ""machine"": ""QC-Vision-7"",
+        ""issue"": ""Incorrectly flagged 14 acceptable units as defective due to calibration drift"",
+        ""remediation"": ""Manually re-inspected and released affected units; calibration issue corrected on 8 September 2026"",
+        ""assigned_monitoring"": ""Technician Suresh Kumar to verify calibration every morning until 30 September 2026""
+      }
+    ]
+  },
+  ""supply_chain"": {
+    ""primary_supplier"": ""Nova Castings"",
+    ""scheduled_housings"": 1000,
+    ""delivered_housings"": 600,
+    ""supplier_reason"": ""Furnace instability at its plant"",
+    ""emergency_supplier"": ""Delta Components"",
+    ""emergency_order_housings"": 500,
+    ""emergency_delivery_date"": ""14 September 2026""
+  },
+  ""planning_and_orders"": {
+    ""order_backlog_start"": 1320,
+    ""forecasted_backlog_21_september"": 980,
+    ""line_2_recovery_shift"": ""19 September 2026 (additional Saturday shift, subject to staffing confirmation)"",
+    ""customer_shipment"": {
+      ""customer"": ""Meridian Auto"",
+      ""purchase_order"": ""PO-4471"",
+      ""units_required"": 400,
+      ""original_delivery_date"": ""12 September 2026"",
+      ""revised_delivery_date"": ""21 September 2026"",
+      ""delay_days"": 9,
+      ""delay_cause"": ""Sub-supplier casting failure"",
+      ""client_communication_handler"": ""Account management team""
+    }
+  },
+  ""action_items"": [
+    {
+      ""assignee"": ""Priya Shah"",
+      ""task"": ""Confirm staffing for the additional 19 September shift"",
+      ""deadline"": ""13 September 2026""
+    },
+    {
+      ""assignee"": ""Meera Iyer"",
+      ""task"": ""Complete MX-400",1060,996,3185.79
+Email - Formal,"{
+  ""subject"": ""Delivery Schedule Update: PO-4471"",
+  ""body"": ""Dear Procurement Team,\n\nWe regret to inform you that the delivery date for PO-4471 (400 units) must be revised. This is due to an unexpected sub-supplier casting failure.\n\nWhile we deeply regret this disruption and any inconvenience it causes, please be assured we are managing the situation closely. The revised delivery date is 21 September.\n\nTo help mitigate production impacts, we can immediately dispatch 150 completed units by air on 12 September, with the remaining balance delivered on the revised date at no additional charge.\n\nWe appreciate your patience and partnership as we resolve this matter.\n\nSincerely,\nAccount Management Team""
+}",195,172,2020.95
+Email - Empathetic,"{
+  ""subject"": ""Delivery Update for PO-4471: Meridian Auto"",
+  ""body"": ""Dear David,\n\nI am writing to update you regarding your order PO-4471 for 400 units. Unfortunately, a sub-supplier casting failure has occurred, and I am truly sorry for the inconvenience this causes your production schedule.\n\nThe revised delivery date is now 21 September. We deeply regret any disruption this may cause to your operations.\n\nTo help mitigate this impact, we can offer expedited freight at our expense to ensure the components reach your facility as quickly as possible upon completion.\n\nThank you for your patience and your valued seven-year partnership. Please let me know how you would like to proceed.\n\nBest regards,\n\nSarah Jenkins\nSenior Account Manager""
+}",201,181,1717.23
+Email - Assertive,"{
+  ""subject"": ""Delivery Update: PO-4471 for Meridian Auto"",
+  ""body"": ""Dear Sarah,\n\nWe are writing to update you regarding PO-4471 for 400 precision units. Due to an unforeseen sub-supplier casting failure, we must revise our delivery date from 12 September to 21 September.\n\nWe understand the critical nature of your timeline and regret any disruption this causes. To mitigate this delay, we can immediately dispatch 200 units by 14 September via air freight, with the remaining balance following on 21 September at no additional cost to Meridian Auto.\n\nOur production team is actively managing our foundry partners to ensure absolute adherence to this revised schedule. Please confirm if this split-shipment solution meets your immediate operational needs.\n\nBest regards,\n\nMichael Vance\nSenior Account Manager""
+}",200,194,2152.81
+Product Launch Campaign,"{
+  ""LINKEDIN"": ""Upgrade your facility's operations with the new EcoDrive IE5 Industrial Motor. Engineered for maximum performance, this 15 kW motor delivers an exceptional IE5 efficiency class, offering up to 12% in energy savings compared to conventional IE3 motors. \n\nDesigned to operate across a versatile speed range of 500 to 3000 RPM at 380–480 V, the EcoDrive features robust IP55 protection for demanding environments. It is the ideal drive solution for industrial pumps, compressors, and conveyor systems. \n\nMaximize your operational uptime with reliable power backed by a comprehensive 3-year warranty. Transition your plant to next-generation efficiency and reduce your carbon footprint today. Contact our sales engineering team to integrate the EcoDrive IE5 into your next project."",
+  ""INSTAGRAM"": ""Supercharge your facility with the EcoDrive IE5 Industrial Motor! Enjoy up to 12% energy savings, a 15 kW power rating, and reliable IP55 protection. Backed by a 3-year warranty. #EcoDrive #IndustrialMotor #IE5 #EnergySaving"",
+  ""WEBSITE"": ""Discover the ultimate energy-efficient industrial motor designed for peak performance. Our advanced IE5 motor redefines industrial motor efficiency with a 15 kW power rating and up to 12% energy savings over standard IE3 models. Operating at 380–480 V with a 500–3000 RPM speed range and IP55 protection, it powers pumps, compressors, and conveyors, backed by a 3-year warranty.""
+}",249,350,2456.01
+Ablation - Remove ROLE,"{
+  ""email"": ""Subject: Delivery Update: PO-4471 for Meridian Auto\n\nDear Meridian Auto Team,\n\nWe value our seven-year partnership and are writing to inform you of a schedule adjustment regarding PO-4471 for 400 units. Regrettably, a sub-supplier casting failure has disrupted our standard production timeline. We sincerely apologize for this delay and the resulting inconvenience.\n\nThe original delivery date of 12 September is now revised to 21 September. We deeply regret any disruption this causes to your operations. \n\nTo mitigate this impact, we can offer expedited freight at our expense to ensure the full shipment arrives securely as quickly as possible. Please confirm if this approach meets your immediate operational needs so we can finalize arrangements.\n\nThank you for your continued understanding and partnership as we resolve this matter promptly.""
+}",182,188,1951.47
+Ablation - Remove CONTEXT,"{
+  ""subject"": ""Delivery Schedule Update: Precision Components Order"",
+  ""body"": ""Dear Valued Client,\n\nWe are writing to inform you of an unforeseen delay in the production schedule for your recent order. Regrettably, this impacts our initial timeline, and we sincerely apologise for this inconvenience.\n\nThe revised delivery date is now set for November 14, 2023. We understand the critical nature of this timeline and take full accountability for managing this transition.\n\nTo mitigate any operational disruption on your end, we are prepared to ship half of your order via expedited freight at our expense on the original due date, with the remainder following immediately upon completion. Alternatively, we can dispatch the entire completed batch via expedited air freight once production concludes.\n\nWe value our partnership and deeply regret the impact on your schedule. Please confirm how you would like us to proceed with the logistics.\n\nBest regards,\n\nAccount Management Team""
+}",134,206,2169.16
+Ablation - Remove TONE,"{
+  ""subject"": ""Delivery Schedule Update: PO-4471"",
+  ""body"": ""Dear Sarah,\n\nWe value our seven-year partnership with Meridian Auto. Regarding PO-4471 for 400 units, we regret to inform you that an unexpected sub-supplier casting failure has impacted our production schedule. We sincerely apologize for this disruption and for any inconvenience caused.\n\nThe revised delivery date is now 21 September. We deeply regret this delay. To mitigate any impact on your assembly line, we can immediately air-freight the entire shipment at our own expense upon completion.\n\nPlease let us know if this expedited freight solution works for your team, or if you prefer an alternative arrangement. Thank you for your continued patience and understanding as we resolve this matter.\n\nBest regards,\n\nDavid Miller\nSenior Account Manager""
+}",185,188,1839.27
+Ablation - Remove WORD_COUNT,"{
+  ""subject"": ""Delivery Update regarding Purchase Order PO-4471"",
+  ""body"": ""Dear Procurement Team,\n\nI am writing to provide an important update regarding Purchase Order PO-4471 for 400 units. During our final quality inspection, we identified a casting failure originating from our sub-supplier that does not meet our rigorous standards.\n\nTo ensure only fully compliant components are delivered to Meridian Auto, we have rejected the compromised batch and initiated immediate remanufacturing. Consequently, the delivery date is revised from 12 September to 21 September. I regret the inconvenience this schedule adjustment causes to your operations.\n\nTo mitigate the impact of this delay, we can dispatch the first 200 units on our original delivery date of 12 September via standard freight, with the remaining 200 units to follow on 21 September. Alternatively, we can hold the entire order of 400 units and ship everything on 21 September via expedited air freight at our expense.\n\nPlease let us know which option best suits your production schedule so we can adjust our logistics accordingly. We appreciate your understanding and value our seven-year partnership.\n\nBest regards,\n\nSenior Account Manager\nPrecision Components Manufacturing""
+}",185,274,2110.92
+Ablation - Remove OUTPUT_FORMAT,"{
+  ""recipient"": ""Meridian Auto Procurement Team"",
+  ""subject"": ""Delivery Update: PO-4471 (400 units)"",
+  ""body"": ""Dear Meridian Team, I am writing to provide an important update regarding PO-4471 for 400 units. Regrettably, due to an unexpected casting failure at our sub-supplier level, we must revise our delivery schedule. We sincerely apologise for this disruption. The revised delivery date is now 21 September. We deeply regret any inconvenience this may cause to your production planning. To mitigate this delay, we can offer expedited freight at our expense to ensure the shipment arrives as quickly as possible following final quality checks. Please confirm if this approach is acceptable, and we will immediately adjust our logistics accordingly. Thank you for your continued partnership as we work to resolve this promptly.""
+}",179,181,1622.87

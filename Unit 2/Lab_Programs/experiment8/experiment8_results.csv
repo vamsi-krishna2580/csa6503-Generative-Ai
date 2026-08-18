@@ -1,0 +1,18 @@
+experiment_type,profile_id,crop,district,weather,temperature,top_p,advisory,characters,latency_ms,prompt_tokens,completion_tokens,attempts,fallback_used
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.0,1.0,Thanjavur rice farmers: Drain excess water from your clay soil fields immediately to prevent crop damage from the heavy rain.,125,1630.27,114,34,1,False
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.4,1.0,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1270.48,114,34,1,False
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.9,1.0,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to protect your crops.,117,1800.46,114,34,1,False
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.4,0.5,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1403.1,114,34,1,False
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.9,0.5,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1392.65,114,34,1,False
+BATCH,F1,Rice,Thanjavur,Heavy rain expected for two days,0.4,1.0,Thanjavur rice farmers: Drain excess water from clay soil fields immediately to prevent crop damage from expected heavy rain.,125,1307.11,114,33,1,False
+BATCH,F2,Maize,Salem,Hot and dry conditions,0.4,1.0,Salem maize farmers: Hot dry weather ahead. Apply life-saving irrigation to your red loam soil now to protect crops from moisture stress.,137,1368.65,110,36,1,False
+BATCH,F3,Groundnut,Madurai,Light rain expected,0.4,1.0,"{
+  ""advisory"": ""Madurai farmers: Light rain expected. Ensure good drainage in sandy loam groundnut fields to prevent water stagnation.""
+}",138,2821.33,111,32,1,False
+BATCH,F4,Cotton,Coimbatore,High temperature and strong winds,0.4,1.0,Coimbatore farmers: High heat and winds on black soil can dry cotton fast. Irrigate fields now to protect roots.,112,6015.58,111,33,1,False
+BATCH,F5,Sugarcane,Erode,Moderate rain expected,0.4,1.0,Erode farmers: Moderate rain is expected in alluvial soils. Clear drainage channels in your sugarcane fields now to prevent water stagnation.,141,10758.66,113,34,1,False
+BATCH,F6,Tomato,Krishnagiri,Humid weather with scattered rain,0.4,1.0,Krishnagiri farmers: Humid rain may cause fungal disease in tomatoes on red soil. Spray copper fungicide now to protect crop.,125,1409.02,114,55,1,False
+BATCH,F7,Chilli,Ramanathapuram,Very dry weather,0.4,1.0,Ramanathapuram chilli farmers in sandy soil: Apply light irrigation daily during this dry spell to prevent flower drop.,119,1480.47,111,32,1,False
+BATCH,F8,Banana,Tiruchirappalli,Strong winds expected,0.4,1.0,Tiruchirappalli farmers: Strong winds expected. Tie your banana plants to strong wooden poles in loamy soil now to prevent stem breakage and crop loss.,151,1826.34,114,42,1,False
+BATCH,F9,Millet,Vellore,Low rainfall and high temperature,0.4,1.0,Vellore farmers: Low rain and high heat in red soil stress millet. Apply life-saving irrigation now to protect crop growth.,123,1442.6,113,36,1,False
+BATCH,F10,Paddy,Nagapattinam,Continuous rainfall forecast,0.4,1.0,Nagapattinam paddy farmers: Drain excess water from clay loam fields immediately due to continuous rain forecast to prevent crop damage.,136,1221.55,111,33,1,False

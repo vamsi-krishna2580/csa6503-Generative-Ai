@@ -1,0 +1,4 @@
+strategy,total_runs,category_correct,category_accuracy_percent,urgency_correct,urgency_accuracy_percent,sentiment_correct,sentiment_accuracy_percent,valid_json,valid_json_percent,avg_prompt_tokens,avg_completion_tokens,avg_latency_ms
+ZERO_SHOT,15,15,100.0,11,73.33,13,86.67,15,100.0,271.87,31.07,1365.89
+ONE_SHOT,15,14,93.33,12,80.0,13,86.67,15,100.0,335.87,31.13,1427.61
+FEW_SHOT,15,14,93.33,12,80.0,14,93.33,15,100.0,606.87,31.2,1435.18

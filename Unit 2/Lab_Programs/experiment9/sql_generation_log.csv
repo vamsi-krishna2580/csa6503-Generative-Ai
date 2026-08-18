@@ -1,0 +1,5 @@
+artefact,attempt,sql_file,prompt_tokens,completion_tokens,latency_ms
+Q1_MOM_GROWTH,1,generated_sql/Q1_MOM_GROWTH.sql,289,337,2338.15
+Q2_TOP_5_LTV,1,generated_sql/Q2_TOP_5_LTV.sql,269,140,1796.64
+Q3_QOQ_DROP,1,generated_sql/Q3_QOQ_DROP.sql,294,398,2067.85
+Q4_CHURN,1,generated_sql/Q4_CHURN.sql,279,195,1580.22

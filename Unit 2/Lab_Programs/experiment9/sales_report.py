@@ -1,0 +1,2 @@
+{
+  "code": "import sqlite3\nimport pandas as pd\nfrom openpyxl import Workbook\nfrom openpyxl.chart import BarChart, Reference\nfrom openpyxl.utils.dataframe import dataframe_to_rows\n\n\ndef fetch_category_revenue(db_path: str = \"retail.db\") -> pd.DataFrame:\n    \"\"\"Connect to SQLite database and compute category-wise total revenue.\n\n    Excludes

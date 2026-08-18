@@ -1,0 +1,25 @@
+Production Review Meeting – 10 September 2026
+
+The weekly production review meeting was held on 10 September 2026 at the main manufacturing facility. The meeting was chaired by Operations Director Ravi Menon. Participants included Priya Shah, Production Manager; Arjun Patel, Quality Manager; Meera Iyer, Maintenance Engineer; Karthik Rao, Supply Chain Manager; and Nisha Verma, Planning Coordinator.
+
+Priya Shah opened the meeting with the August production figures. The plant produced 4,860 units against a target of 5,000 units, resulting in a shortfall of 140 units. Overall output increased by 3 percent compared with July, but the shortfall was caused mainly by downtime on Line-2 and reduced availability of cast housings.
+
+Meera Iyer reported that Machine MX-400 experienced an unexpected bearing failure on 4 September. The machine remained unavailable for 11 hours. During the shutdown, the maintenance team replaced the damaged bearing and completed an alignment inspection. A follow-up vibration test is scheduled for 15 September. Meera stated that the maintenance report must be submitted by 16 September.
+
+Priya Shah reported that Line-2 produced 1,120 units during the review period instead of the planned 1,350 units. The 230-unit gap was linked to the MX-400 shutdown and two material shortages. Line-1 produced 2,740 units, while Line-3 produced 1,000 units. Priya said the recovery plan requires Line-2 to operate one additional Saturday shift on 19 September, subject to staffing confirmation.
+
+Arjun Patel presented the quality report. A total of 78 units were rejected during final inspection. Of these, 31 units had surface cracks, 22 had dimensional variation, and 25 had electrical test failures. The overall defect rate was 1.60 percent, compared with the internal target of 1.20 percent. Arjun noted that surface cracking increased after a change in casting supplier during August.
+
+The Quality Manager also reported that Machine QC-Vision-7 incorrectly flagged 14 acceptable units as defective because of a calibration drift. The affected units were manually re-inspected and released. The calibration issue was corrected on 8 September. Arjun assigned technician Suresh Kumar to verify QC-Vision-7 calibration every morning until 30 September.
+
+Karthik Rao discussed material supply. The primary supplier, Nova Castings, delivered 600 cast housings instead of the scheduled 1,000 units. Nova Castings reported furnace instability at its plant. The shortage contributed directly to reduced production on Line-2. Karthik said an emergency purchase order for 500 housings had been placed with Delta Components. Delta Components confirmed delivery on 14 September.
+
+Nisha Verma presented the customer order position. Order backlog at the start of the meeting was 1,320 units. Confirmed production and shipment plans are expected to reduce the backlog to 980 units by 21 September. However, this forecast depends on the emergency housing delivery arriving on 14 September and the additional Line-2 shift taking place on 19 September.
+
+The team reviewed the upcoming customer shipment for Meridian Auto. Purchase Order PO-4471 requires 400 units. The original delivery date was 12 September. Because of the supply shortage, the revised delivery date is 21 September. Karthik Rao confirmed that the delay is nine days. The cause is a sub-supplier casting failure. The team agreed that the client communication would be prepared by the account management team.
+
+Ravi Menon asked each department to focus on recovery actions. Priya Shah must confirm staffing for the additional 19 September shift by 13 September. Meera Iyer must complete the MX-400 vibration test on 15 September and submit the maintenance report by 16 September. Arjun Patel must monitor defect trends and report the surface-crack investigation findings by 18 September. Suresh Kumar must verify QC-Vision-7 calibration each morning until 30 September.
+
+Karthik Rao must track the emergency shipment from Delta Components and confirm arrival of the 500 cast housings on 14 September. If the shipment is late, he must immediately inform Priya Shah and Nisha Verma. Nisha Verma must update the production and backlog forecast after the housing delivery is received and after staffing for the additional shift is confirmed.
+
+The Operations Director concluded that the immediate priorities are restoring Line-2 capacity, stabilizing casting quality, confirming material availability and protecting customer commitments. Ravi Menon will review progress at the next production meeting on 17 September 2026.

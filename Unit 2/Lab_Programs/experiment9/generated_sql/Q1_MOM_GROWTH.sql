@@ -1,0 +1,5 @@
+[
+  {
+    "sql": "WITH valid_orders AS (SELECT order_id FROM orders WHERE status != 'CANCELLED'), monthly_category_revenue AS (SELECT p.category AS category, strftime('%Y-%m', o.order_date) AS month, SUM(oi.qty * p.unit_price * (1.0 - COALESCE(oi.discount_pct, 0.0) / 100.0)) AS monthly_revenue FROM orders o JOIN valid_orders vo ON o.order_id = vo.order_id JOIN order_items oi ON o.order_id = oi.order_id JOIN products p ON oi.prod_id = p.prod_id WHERE o.order_date >= date('now', '-12 months') GROUP BY p.category, strftime('%Y-%m', o.order_date)), lagged_revenue AS (SELECT category, month, monthly_revenue, LAG(monthly_revenue, 1) OVER (PARTITION BY category ORDER BY month) AS prev_month_revenue FROM monthly_category_revenue) SELECT category, month, monthly_revenue, COALESCE(prev_month_revenue, 0.0) AS previous_month_revenue, CASE WHEN prev_month_revenue IS NULL OR prev_month_revenue = 0 THEN NULL ELSE ROUND(((monthly_revenue - prev_month_revenue) * 100.0 / prev_month_revenue), 4) END AS percentage_growth FROM lagged_revenue ORDER BY category, month;"
+  }
+]

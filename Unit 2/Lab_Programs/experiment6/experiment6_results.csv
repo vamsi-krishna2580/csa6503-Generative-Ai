@@ -1,0 +1,226 @@
+strategy,id,message,gold_category,gold_urgency,gold_sentiment,raw_output,prompt_tokens,completion_tokens,latency_ms
+ZERO_SHOT,M1,"Ordered on the 3rd, still not shipped. I need it for my wedding tomorrow!",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",277,31,1672.92
+ZERO_SHOT,M2,My refund was approved 9 days ago but the money is still not in my bank account.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",277,32,1263.43
+ZERO_SHOT,M3,The phone I received has a cracked screen and won't turn on.,PRODUCT_DEFECT,HIGH,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",273,31,1222.12
+ZERO_SHOT,M4,I forgot my password and the reset OTP is not arriving.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",270,30,1353.31
+ZERO_SHOT,M5,"Your delivery service is amazing, received everything perfectly!",FEEDBACK_OTHER,LOW,POSITIVE,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",268,31,1352.15
+ZERO_SHOT,M6,Where???,DELIVERY_DELAY,MEDIUM,NEUTRAL,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",261,31,1307.29
+ZERO_SHOT,M7,Order ID ORD-847291 — package is delayed and I was charged twice. Please fix this urgently.,DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",283,31,1427.13
+ZERO_SHOT,M8,Super service! Ordered last week and it still hasn't even shipped.,DELIVERY_DELAY,MEDIUM,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",273,31,1526.12
+ZERO_SHOT,M9,"En order innum varala, tomorrow function irukku. Please check fast.",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",275,31,1095.34
+ZERO_SHOT,M10,Payment deducted but order failed and I haven't received either confirmation or refund.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",274,32,1709.59
+ZERO_SHOT,M11,"Product works, but the charger provided in the box is defective.",PRODUCT_DEFECT,MEDIUM,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""MEDIUM"",
+    ""sentiment"": ""NEGATIVE""
+}",271,31,1285.63
+ZERO_SHOT,M12,Why can't I log in? It says my account is locked.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",273,30,1291.26
+ZERO_SHOT,M13,"Delivery was two days late, but thank you for resolving the issue quickly.",DELIVERY_DELAY,LOW,POSITIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",273,31,1118.96
+ZERO_SHOT,M14,I want to suggest adding more eco-friendly packaging options.,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",270,31,1424.03
+ZERO_SHOT,M15,???,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""NEUTRAL""
+}",260,32,1439.12
+ONE_SHOT,M1,"Ordered on the 3rd, still not shipped. I need it for my wedding tomorrow!",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",341,31,1209.33
+ONE_SHOT,M2,My refund was approved 9 days ago but the money is still not in my bank account.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",341,32,1799.21
+ONE_SHOT,M3,The phone I received has a cracked screen and won't turn on.,PRODUCT_DEFECT,HIGH,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",337,31,1985.33
+ONE_SHOT,M4,I forgot my password and the reset OTP is not arriving.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",334,30,1106.72
+ONE_SHOT,M5,"Your delivery service is amazing, received everything perfectly!",FEEDBACK_OTHER,LOW,POSITIVE,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",332,31,1746.03
+ONE_SHOT,M6,Where???,DELIVERY_DELAY,MEDIUM,NEUTRAL,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""MEDIUM"",
+    ""sentiment"": ""NEGATIVE""
+}",325,31,1472.07
+ONE_SHOT,M7,Order ID ORD-847291 — package is delayed and I was charged twice. Please fix this urgently.,DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",347,32,1272.23
+ONE_SHOT,M8,Super service! Ordered last week and it still hasn't even shipped.,DELIVERY_DELAY,MEDIUM,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",337,31,1147.1
+ONE_SHOT,M9,"En order innum varala, tomorrow function irukku. Please check fast.",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",339,31,1387.63
+ONE_SHOT,M10,Payment deducted but order failed and I haven't received either confirmation or refund.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",338,32,1266.94
+ONE_SHOT,M11,"Product works, but the charger provided in the box is defective.",PRODUCT_DEFECT,MEDIUM,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""MEDIUM"",
+    ""sentiment"": ""NEGATIVE""
+}",335,31,1472.59
+ONE_SHOT,M12,Why can't I log in? It says my account is locked.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",337,30,1487.32
+ONE_SHOT,M13,"Delivery was two days late, but thank you for resolving the issue quickly.",DELIVERY_DELAY,LOW,POSITIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",337,31,1190.3
+ONE_SHOT,M14,I want to suggest adding more eco-friendly packaging options.,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",334,31,1425.8
+ONE_SHOT,M15,???,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""NEUTRAL""
+}",324,32,1445.5
+FEW_SHOT,M1,"Ordered on the 3rd, still not shipped. I need it for my wedding tomorrow!",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",612,31,1439.18
+FEW_SHOT,M2,My refund was approved 9 days ago but the money is still not in my bank account.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",612,32,1179.62
+FEW_SHOT,M3,The phone I received has a cracked screen and won't turn on.,PRODUCT_DEFECT,HIGH,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",608,31,1419.98
+FEW_SHOT,M4,I forgot my password and the reset OTP is not arriving.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""MEDIUM"",
+    ""sentiment"": ""NEGATIVE""
+}",605,30,1153.37
+FEW_SHOT,M5,"Your delivery service is amazing, received everything perfectly!",FEEDBACK_OTHER,LOW,POSITIVE,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",603,31,1967.77
+FEW_SHOT,M6,Where???,DELIVERY_DELAY,MEDIUM,NEUTRAL,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",596,31,1442.68
+FEW_SHOT,M7,Order ID ORD-847291 — package is delayed and I was charged twice. Please fix this urgently.,DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",618,32,1348.5
+FEW_SHOT,M8,Super service! Ordered last week and it still hasn't even shipped.,DELIVERY_DELAY,MEDIUM,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",608,31,1428.0
+FEW_SHOT,M9,"En order innum varala, tomorrow function irukku. Please check fast.",DELIVERY_DELAY,HIGH,NEGATIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",610,31,1508.06
+FEW_SHOT,M10,Payment deducted but order failed and I haven't received either confirmation or refund.,PAYMENT_REFUND,HIGH,NEGATIVE,"{
+    ""category"": ""PAYMENT_REFUND"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",609,32,1432.31
+FEW_SHOT,M11,"Product works, but the charger provided in the box is defective.",PRODUCT_DEFECT,MEDIUM,NEGATIVE,"{
+    ""category"": ""PRODUCT_DEFECT"",
+    ""urgency"": ""MEDIUM"",
+    ""sentiment"": ""NEGATIVE""
+}",606,31,1500.83
+FEW_SHOT,M12,Why can't I log in? It says my account is locked.,ACCOUNT_ACCESS,MEDIUM,NEGATIVE,"{
+    ""category"": ""ACCOUNT_ACCESS"",
+    ""urgency"": ""HIGH"",
+    ""sentiment"": ""NEGATIVE""
+}",608,30,1374.33
+FEW_SHOT,M13,"Delivery was two days late, but thank you for resolving the issue quickly.",DELIVERY_DELAY,LOW,POSITIVE,"{
+    ""category"": ""DELIVERY_DELAY"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""POSITIVE""
+}",608,31,1471.95
+FEW_SHOT,M14,I want to suggest adding more eco-friendly packaging options.,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""NEUTRAL""
+}",605,32,1115.67
+FEW_SHOT,M15,???,FEEDBACK_OTHER,LOW,NEUTRAL,"{
+    ""category"": ""FEEDBACK_OTHER"",
+    ""urgency"": ""LOW"",
+    ""sentiment"": ""NEUTRAL""
+}",595,32,1745.52

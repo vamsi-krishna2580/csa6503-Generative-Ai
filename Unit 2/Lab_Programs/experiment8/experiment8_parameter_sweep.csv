@@ -1,0 +1,6 @@
+experiment_type,profile_id,crop,district,weather,temperature,top_p,advisory,characters,latency_ms,prompt_tokens,completion_tokens,attempts,fallback_used,factually_safe
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.0,1.0,Thanjavur rice farmers: Drain excess water from your clay soil fields immediately to prevent crop damage from the heavy rain.,125,1630.27,114,34,1,False,CHECK MANUALLY
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.4,1.0,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1270.48,114,34,1,False,CHECK MANUALLY
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.9,1.0,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to protect your crops.,117,1800.46,114,34,1,False,CHECK MANUALLY
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.4,0.5,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1403.1,114,34,1,False,CHECK MANUALLY
+PARAMETER_SWEEP,F1,Rice,Thanjavur,Heavy rain expected for two days,0.9,0.5,Thanjavur rice farmers: Heavy rain expected. Drain excess water from your clay soil fields now to prevent crop damage.,118,1392.65,114,34,1,False,CHECK MANUALLY

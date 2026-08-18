@@ -1,0 +1,13 @@
+task,output_length_words,compression_ratio,auto_hallucination_candidates,suspicious_numbers,suspicious_dates
+Executive Abstract,69,0.0994,0,,
+Action-Item List,142,0.2046,6,,"13 September 2026, 14 September 2026, 15 September 2026, 16 September 2026, 18 September 2026, 30 September 2026"
+Technical Summary,238,0.3429,18,"1000, 1120, 1320, 1350, 2740, 4860, 5000, 9","12 September 2026, 13 September 2026, 14 September 2026, 15 September 2026, 16 September 2026, 19 September 2026, 21 September 2026, 30 September 2026, 4 September 2026, 8 September 2026"
+Email - Formal,111,,,,
+Email - Empathetic,121,,,,
+Email - Assertive,126,,,,
+Product Launch Campaign,214,,,,
+Ablation - Remove ROLE,133,,,,
+Ablation - Remove CONTEXT,154,,,,
+Ablation - Remove TONE,127,,,,
+Ablation - Remove WORD_COUNT,190,,,,
+Ablation - Remove OUTPUT_FORMAT,124,,,,
